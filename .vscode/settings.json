@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
         "Arsanyos"
-    ]
+    ],
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth"
 }
