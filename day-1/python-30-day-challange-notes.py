@@ -18,16 +18,3 @@
   """
  # AND YES WE USE THREE DOUBLE QUOTES AND WRAP AROUND THE CONTENT FOR A MULTILINE COMMENT
  
-
-
-#-------------------------------------------------------#
-                         # MY-ANSWERS
-                         #-----------#
-print(type(10))          # int
-print(type(3.14))        # float
-print(type(1 + 3j))      # complex number
-print(type('Asabeneh'))  # division (/)
-print(type([1, 2, 3]))   # list
-print(type({'name':'Asabeneh'}))    # dictionary 
-print(type({9.8, 3.14, 2.7}))       # set
-print(type((9.8, 3.14, 2.7)))       # tuple
