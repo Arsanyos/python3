@@ -76,15 +76,23 @@ import math
 # year to seconds
 
 
-def years_to_seconds(age):
-    year_to_day = 365
-    day_to_hour = 24
-    hour_to_minute = 60
-    minute_to_second = 60
-    seconds_per_year = year_to_day * day_to_hour * hour_to_minute * minute_to_second
-    return age*seconds_per_year
+# def years_to_seconds(age):
+#     year_to_day = 365
+#     day_to_hour = 24
+#     hour_to_minute = 60
+#     minute_to_second = 60
+#     seconds_per_year = year_to_day * day_to_hour * hour_to_minute * minute_to_second
+#     return age*seconds_per_year
 
-#
-age = int(input('Enter the number of years you have lived'))
-age_in_second = years_to_seconds(age)
-print(age_in_second)
+# #
+# age = int(input('Enter the number of years you have lived'))
+# age_in_second = years_to_seconds(age)
+# print(age_in_second)
+
+
+# multiline texts
+print('''1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125''')
